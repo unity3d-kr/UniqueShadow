@@ -75,7 +75,9 @@ uniform half2 u_UniqueShadowBlockerWidth;
 uniform half u_UniqueShadowBlockerDistanceScale;
 uniform half2 u_UniqueShadowLightWidth;
 
+#if 0
 uniform sampler2D unity_RandomRotation16;
+#endif
 
 uniform samplerCUBE _ShadowsCube;
 uniform half4 _ShadowsCubeRoot;
